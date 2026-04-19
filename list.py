@@ -148,8 +148,56 @@
 # n_list = list(map(int, input("Enter numbers: ").split()))
 # print(n_list)
 
-tuple1 = ("a", "b" , "c")
-tuple2 = (1, 2, 3)
+# tuple1 = ("a", "b" , "c")
+# tuple2 = (1, 2, 3)
 
-tuple3 = tuple1 + tuple2
-print(tuple3)
+# tuple3 = tuple1 + tuple2
+# print(tuple3)
+
+# name = input("Enter your name: ")
+
+# list_name = ['sokkhen','Rotha','Manith','Thyda','Sokpov','Rottanak','Vannoy']
+
+# # check if name already exists
+# if name in list_name:
+#     print("Name already in list:", name)
+# else:
+#     list_name.append("Doctor")
+#     print("Added new name:", name)
+
+# print("Full list:", list_name)
+# The code snippet `list1 = [3, 5, 7, 8]` and `list2 = [2, 4, 5, 6]` is defining two lists in Python.
+# `list1` contains the elements `[3, 5, 7, 8]` and `list2` contains the elements `[2, 4, 5, 6]`.
+
+# list1 = [3,5,7,8]
+# list2 = [2,4,5,6]
+
+# for j in list2:
+#     for i in list1:
+#         print(f"{i} * {j} = {i*j}".ljust(12), end="\t")
+#     print()  
+
+# base = int (input("Enter of base:"))
+# height = int(input("Enter of height:"))
+
+# c = (base**2 + height**2) **0.5
+
+# print("Hypotenuse =", c)
+
+# n_list = [1,2,3,4,5,6,7,8,9,10]
+# even_list = list(filter(lambda x: x % 2==0,n_list))
+# print(f"even_list{even_list}")
+
+#upper_list 
+# def to_upper(char):
+#     return char.upper()
+# a_list = ['a','b','c','d','e']
+
+# upper_a_list = list(map(to_upper,a_list))
+# print ("upper_list = ", upper_a_list)
+
+a_list = ['sokkhen', 'dego']
+
+upper_list = [name.upper() for name in a_list]
+
+print("Upper list =", upper_list)
